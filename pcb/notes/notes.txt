@@ -1,0 +1,40 @@
+Process
+-------
+
+# Adjusted ultiboard pcb settings and design rules to match minimums for BatchPCB and others manufacturers
+# Sized board
+# Added plated through holes for mounting
+# Autoplaced components on board
+# Arranged components based on accessbility first
+# Arranged components for split power planes (5v, 9v)
+# Arranged components to group similar parts
+# Arranged components for asthetics
+# Add power planes, tweaking the various options to elminate unconnected islands
+# Many, many runs of the auto routing and moving components around to make the traces as simple as possible
+# Added labels to everything possible
+
+
+Successes
+---------
+
+* Learned a fair bit about Ultiboard
+* Learned quite a bit about pcb layout best practices and terminology
+* Board works!
+* BatchPCB boards look great, only 1 visible silkscreen defect
+* Handles 21 leds with 150mA okay
+
+
+Issues
+------
+
+* 9V DC - Power plug pins not properly sized, positive is too small
+* J1 - Not enough clearance for 10 pin idc connector for leds
+* Q3 - Via in label
+* J2, J5, J4 - Rotate to outside edge for right angle header connectors
+* C3, C7, C9 - Move to right of gain, space for other connectorson similar edge
+* Base screw holes on actual screw dimensions with standoffs
+* No docs on max amps the board can handle
+* No real data on how wide traces should be, just best guesses
+* Not enough research into usage and layout of wide traces, unclear if they have any benefit at all
+* My soldering iron sucks, need a finer tip
+* Need a better hands free clamp, cheap one is flimsy and needs more arms

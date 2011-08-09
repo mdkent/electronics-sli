@@ -1,0 +1,18 @@
+Process
+-------
+
+# Box sized on average stereo component (?)
+# Measured the finished pcb board
+# 
+
+
+Successes
+---------
+
+* 
+
+
+Issues
+------
+
+* 
